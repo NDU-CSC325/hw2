@@ -1,3 +1,20 @@
+# Homework 2
+
+
+This assignment has __three parts__, described below. Before getting to the questions we tackle logistic issues.
+
+## Autograding
+
+To kickstart the autograder, add a comment starting with '/eval' in the pull request "Feedback". It takes a few (about 5) minutes for the autograder to finish. During that time __refrain__ from committing to your repository. 
+The autograder will commit the results to the "reports" folder in the root directory. This commit will be shown in the pull request with a __commit message__ containing, either your total grade or if your code doesn't compile, "BUILD_FAILED". 
+
+You can keep updating as many times as you want, until the deadline. However, i prefer if you do most of the updating on your local computer. Once you are confident of your results commit to your Github repository and trigger the autograder.
+
+I reserve the right to limit the number of "/eval"s (not the number commits) you can trigger. Generally, it would be at least 10.
+
+__IMPORTANT__: since the augograder adds/updates files in you repository when you _push_ changes from your local computer you might get a message saying that there
+are changes on the remote you need to incorporate first. In that case do a _pull_ before a _push_.
+
 # Problem 1 (25pts)
 A driver needs to go from city A to city B at a distance _distanceToB_. Along the way there are _n_ fuel stations. At each station the driver has to decide whether to refuel the tank or not. When the tank is full the car can travel a distance _distanceOnFull_.
 Devise a greedy algorithm to select the minimum number of stations where the driver needs to refuel.
