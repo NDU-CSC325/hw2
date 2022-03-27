@@ -16,4 +16,4 @@ jobs:
               token: ${{ secrets.workflow_token }}
               repository: NDU-CSC325/autograding
               event-type: autograde
-              client-payload: '{"run_number":${{github.run_number}},"ref":"${{github.head_ref}}","run_id":"${{github.run_id}}","repo":"${{github.repository}}"}'
+              client-payload: '{"run_number":${{github.run_number}},"ref":"${{github.head_ref}}","run_id":"${{github.run_id}}","timeout":"2m","repo":"${{github.repository}}"}'
